@@ -12,7 +12,7 @@ n_var = 9   # "all" : 9, "weather" : 7
 n_clusters = 20
 val_size = 0.1
 test_size = 0.1
-data_dir = "data"
+data_dir = "data_subset"
 
 # Weather Variables, MG, Yield, Year, Location
 x_data = np.load("%s/mg_weather_variables_all_data_TS_%s.npy" %(data_dir, Tx))   # (103365, 30, 8)
